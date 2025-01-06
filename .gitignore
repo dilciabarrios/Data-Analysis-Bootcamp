@@ -1,0 +1,62 @@
+# Ignorar archivos de checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar todos los subdirectorios .ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Otros patrones de exclusión
+*.pyc
+__pycache__/
+*.log
+
+# Ignorar archivos de configuración de Jupyter Notebook
+.jupyter/
+
+# Ignorar notebooks temporales
+*.ipynb~
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignorar entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Ignorar archivos de logs
+*.log
+*.out
+*.err
+
+# Ignorar configuraciones de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de datos temporales
+*.csv~
+*.tmp
+*.bak
+
+# Ignorar archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+
+# Ignorar archivos de resultados
+*.h5
+*.sqlite
+*.db
+
+# Ignorar archivos de salida de análisis
+*.png
+*.jpg
+*.svg
+*.pdf
+
