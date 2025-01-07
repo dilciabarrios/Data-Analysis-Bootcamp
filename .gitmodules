@@ -1,0 +1,4 @@
+[submodule "Sprint-7"]
+	path = Sprint-7
+	url = git@github.com:dilciabarrios/Proyecto-Hermientas-De-Desarollo-de-Software.git
+	branch = main
