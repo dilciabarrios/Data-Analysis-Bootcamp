@@ -1,4 +1,4 @@
-Descripción del proyecto
+#Descripción del proyecto
 
 Como analista de datos, tu trabajo consiste en analizar datos para extraer información valiosa y tomar decisiones basadas en ellos. Esto implica diferentes etapas, como la descripción general de los datos, el preprocesamiento y la prueba de hipótesis.
 
@@ -32,7 +32,7 @@ Aquí está nuestra hipótesis para aceptar o rechazar:
 
     La actividad de los usuarios y las usuarias difiere según el día de la semana y dependiendo de la ciudad.
 
-Diccionario de datos
+##Diccionario de datos
 
 Los datos se almacenan en el archivo /datasets/music_project_en.csv. También puedes descargarlo aquí.
 
@@ -46,7 +46,7 @@ Descripción de las columnas:
     'time': hora del día en la que se reprodujo la pista (HH:MM:SS);
     'Day': día de la semana.
 
-Instrucciones para completar el proyecto
+##Instrucciones para completar el proyecto
 
 Se te proporciona una plantilla del cuaderno, donde puedes escribir tu código y proporcionar descripciones de tu análisis. Para completar el proyecto, rellena cada celda de código en la plantilla y edita las celdas Markdown donde la plantilla te pide que expliques tus resultados.
 
@@ -54,11 +54,11 @@ Siempre es una buena práctica incluir una introducción que describa brevemente
 
 Antes de comenzar, repasemos las tres etapas del proyecto una vez más:
 
-Etapa 1: Descripción de los datos. El cuaderno tiene celdas preparadas con instrucciones sobre qué tipo de código escribir, así como bloques de texto donde puedes anotar tus observaciones.
+✔Etapa 1: Descripción de los datos. El cuaderno tiene celdas preparadas con instrucciones sobre qué tipo de código escribir, así como bloques de texto donde puedes anotar tus observaciones.
 
-Etapa 2: Preprocesamiento de datos. En esta etapa, limpiarás los datos examinando los nombres de las columnas y abordando los valores duplicados y ausentes. Sigue la estructura proporcionada en el cuaderno y asegúrate de anotar tus observaciones al final de esta sección.
+✔Etapa 2: Preprocesamiento de datos. En esta etapa, limpiarás los datos examinando los nombres de las columnas y abordando los valores duplicados y ausentes. Sigue la estructura proporcionada en el cuaderno y asegúrate de anotar tus observaciones al final de esta sección.
 
-Etapa 3: Prueba de hipótesis. Es el núcleo de tu proyecto. Sigue los pasos de programación necesarios para probar cada declaración y comenta tus resultados en los bloques apropiados. Finalmente, resume los resultados de todo el proyecto en la sección "Conclusiones".
+✔Etapa 3: Prueba de hipótesis. Es el núcleo de tu proyecto. Sigue los pasos de programación necesarios para probar cada declaración y comenta tus resultados en los bloques apropiados. Finalmente, resume los resultados de todo el proyecto en la sección "Conclusiones".
 Lista de comprobación
 
 Antes de entregar el proyecto, asegúrate de que:
