@@ -1,4 +1,4 @@
-DATASETS
+# Descripción del proyecto
 
     instacart_orders.csv
 
@@ -30,7 +30,7 @@ Tu misión es limpiar los datos y preparar un informe que brinde información so
 Este proyecto requerirá que hagas gráficos que comuniquen tus resultados. Asegúrate de que cualquier gráfico que vayas a crear tenga un título, ejes etiquetados y una leyenda si es necesario; e incluye plt.show() al final de cada celda con un gráfico.
 
 
-Diccionario de datos
+## Diccionario de datos
 
 Hay cinco tablas en el conjunto de datos, y tendrás que usarlas todas para hacer el preprocesamiento de datos y el análisis exploratorio de datos. A continuación se muestra un diccionario de datos que enumera las columnas de cada tabla y describe los datos que contienen.
 
@@ -58,15 +58,15 @@ Hay cinco tablas en el conjunto de datos, y tendrás que usarlas todas para hace
         'department_id': número ID que identifica de manera única cada departamento de víveres.
         'department': nombre del departamento.
 
-Instrucciones para completar el proyecto
+## Instrucciones para completar el proyecto
 
-Paso 1: Abre los archivos de datos (/datasets/instacart_orders.csv, /datasets/products.csv, /datasets/aisles.csv, /datasets/departments.csv y /datasets/order_products.csv) y echa un vistazo al contenido general de cada tabla.
+### Paso 1: Abre los archivos de datos (/datasets/instacart_orders.csv, /datasets/products.csv, /datasets/aisles.csv, /datasets/departments.csv y /datasets/order_products.csv) y echa un vistazo al contenido general de cada tabla.
 
 Observa que los archivos tienen un formato no estándar, así que vas a necesitar establecer ciertos argumentos en pd.read_csv() para leer los datos correctamente. Mira los archivos CSV para tener una idea de cuáles deberían ser esos argumentos.
 
 Ten en cuenta que order_products.csv contiene muchas filas de datos. Cuando un DataFrame tiene demasiadas filas, info() no imprimirá los recuentos no nulos por defecto. Si quieres imprimir los recuentos no nulos, incluye show_counts=True cuando llames a info().
 
-Paso 2: Preprocesa los datos de la siguiente manera:
+### Paso 2: Preprocesa los datos de la siguiente manera:
 
     Verifica y corrige los tipos de datos (por ejemplo, asegúrate de que las columnas de ID sean números enteros).
     Identifica y completa los valores ausentes.
@@ -74,22 +74,22 @@ Paso 2: Preprocesa los datos de la siguiente manera:
 
 Asegúrate de explicar qué tipos de valores ausentes y duplicados encontraste, cómo los completaste o eliminaste y por qué usaste esos métodos. ¿Por qué crees que estos valores ausentes y duplicados pueden haber estado presentes en el conjunto de datos?
 
-Paso 3: Una vez que los datos estén procesados y listos, haz el siguiente análisis:
+### Paso 3: Una vez que los datos estén procesados y listos, haz el siguiente análisis:
 
-[A] (deben completarse todos para aprobar)
+✔[A] (deben completarse todos para aprobar)
 
     Verifica que los valores en las columnas 'order_hour_of_day' y 'order_dow' de la tabla orders sean razonables (o sea, 'order_hour_of_day' va de 0 a 23 y 'order_dow' va de 0 a 6).
     Crea un gráfico que muestre el número de personas que hacen pedidos dependiendo de la hora del día.
     Crea un gráfico que muestre qué día de la semana la gente hace sus compras.
     Crea un gráfico que muestre el tiempo que la gente espera hasta hacer su próximo pedido, y comenta los valores mínimos y máximos.
 
-[B] (deben completarse todos para aprobar)
+✔[B] (deben completarse todos para aprobar)
 
     ¿Hay alguna diferencia en las distribuciones de 'order_hour_of_day' en miércoles y sábados? Traza los histogramas de ambos días en el mismo gráfico y describe las diferencias que observes.
     Traza la distribución del número de pedidos que hacen los clientes y las clientas (por ejemplo, cuántos clientes hicieron un solo pedido, cuántos hicieron solo dos, cuántos solo tres, etc.)
     ¿Cuáles son los 20 principales productos que se piden con más frecuencia (muestra su identificación y nombre)?
 
-[C] (deben completarse todos para aprobar)
+✔[C] (deben completarse todos para aprobar)
 
     ¿Cuántos artículos compra la gente por lo general en un pedido? ¿Cómo es la distribución?
     ¿Cuáles son los 20 principales artículos que se vuelven a pedir con más frecuencia (muestra sus nombres e identificaciones de producto)?
