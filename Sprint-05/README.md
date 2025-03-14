@@ -1,4 +1,4 @@
-Descripción del proyecto
+# Descripción del proyecto
 
 Trabajas como analista para el operador de telecomunicaciones Megaline. La empresa ofrece a sus clientes dos tarifas de prepago, Surf y Ultimate. El departamento comercial quiere saber cuál de los planes genera más ingresos para poder ajustar el presupuesto de publicidad.
 
@@ -9,7 +9,7 @@ Nota: Megaline redondea los segundos a minutos y los megabytes a gigabytes. Para
 
 A continuación puedes ver una descripción de las tarifas:
 
-Surf
+✔ Surf
 
     Pago mensual: $20.
     500 minutos al mes, 50 SMS y 15 GB de datos.
@@ -18,7 +18,7 @@ Surf
         1 SMS: 3 centavos.
         1 GB de datos: $10.
 
-Ultimate
+✔ Ultimate
 
     Pago mensual: $70.
     3000 minutos al mes, 1000 SMS y 30 GB de datos.
@@ -27,7 +27,7 @@ Ultimate
         1 SMS: 1 centavo.
         1 GB de datos: $7.
 
-Diccionario de datos
+# Diccionario de datos
 
 En este proyecto, trabajarás con cinco tablas diferentes.
 
@@ -64,7 +64,7 @@ En este proyecto, trabajarás con cinco tablas diferentes.
     usd_per_message: precio por SMS tras exceder los límites del paquete.
     usd_per_gb: precio por gigabyte de los datos extra tras exceder los límites del paquete (1 GB = 1024 megabytes).
 
-Instrucciones para completar el proyecto
+# Instrucciones para completar el proyecto
 
 Se te facilita una plantilla del cuaderno. El cuaderno te orientará sobre qué código escribir y te pedirá que expliques tus resultados a lo largo del proceso. Para completar el proyecto, tienes que rellenar cada celda de código en la plantilla y editar las celdas Markdown donde la plantilla te pide que expliques tus resultados.
 
@@ -84,12 +84,12 @@ A continuación encontrarás las rutas de los archivos que hay que leer, junto c
 
 /datasets/megaline_users.csv Descargar conjunto de datos
 
-Paso 2. Prepara los datos
+### Paso 2. Prepara los datos
 
     Convierte los datos en los tipos necesarios.
     Encuentra y elimina errores en los datos. Asegúrate de explicar qué errores encontraste y cómo los eliminaste.
 
-Para cada usuario, busca:
+### Para cada usuario, busca:
 
     El número de llamadas realizadas y minutos utilizados al mes.
     La cantidad de los SMS enviados por mes.
@@ -99,7 +99,7 @@ Para cada usuario, busca:
         Multiplicar el resultado por el valor de la tarifa de llamadas.
         Añadir la cuota mensual en función del plan de llamadas.
 
-Paso 3. Analiza los datos
+### Paso 3. Analiza los datos
 
 Describe el comportamiento de la clientela:
 
@@ -107,7 +107,7 @@ Describe el comportamiento de la clientela:
     Calcula la media, la varianza y la desviación estándar.
     Traza histogramas. Describe las distribuciones.
 
-Paso 4. Prueba las hipótesis
+### Paso 4. Prueba las hipótesis
 
     El ingreso promedio de los usuarios de las tarifas Ultimate y Surf difiere.
     El ingreso promedio de los usuarios en el área de estados Nueva York-Nueva Jersey es diferente al de los usuarios de otras regiones.
@@ -117,7 +117,7 @@ Tú decides qué valor alfa usar. Además, tienes que explicar:
     Cómo formulaste las hipótesis nula y alternativa.
     Qué criterio utilizaste para probar las hipótesis y por qué.
 
-Paso 5. Escribe una conclusión general
+### Paso 5. Escribe una conclusión general
 
 Formato. Completa todas las tareas en un Jupyter Notebook. Almacena todo el código en las celdas code y las explicaciones de texto en las celdas markdown. Añade títulos y el formato adecuado si es necesario.
 ¿Cómo será evaluado mi proyecto?
@@ -138,4 +138,3 @@ Esto es lo que buscan los revisores de proyecto cuando evalúan tu proyecto:
     Las conclusiones a las que llegas.
     Si dejas comentarios en cada paso.
 
-En el video que sigue abordamos algunos de los obstáculos más comunes que pueden surgir a la hora de completar este proyecto.
