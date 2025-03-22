@@ -1,12 +1,11 @@
-Descripción del proyecto
-Contexto
+# Descripción del proyecto
 
 Eres analista en una gran tienda online. Junto con el departamento de marketing has recopilado una lista de hipótesis que pueden ayudar a aumentar los ingresos.
 
 Tienes que priorizar estas hipótesis, lanzar un test A/B y analizar los resultados.
 Descripción de los datos
 
-Datos utilizados en la primera parte del proyecto
+✔Datos utilizados en la primera parte del proyecto
 
 /datasets/hypotheses_us.csv
 
@@ -16,7 +15,7 @@ Datos utilizados en la primera parte del proyecto
     Confidence: confianza en la hipótesis, en una escala del uno al diez.
     Effort: los recursos necesarios para probar una hipótesis, en una escala del uno al diez. Cuanto mayor sea el valor Effort, más recursos requiere la prueba.
 
-Datos utilizados en la segunda parte del proyecto
+✔Datos utilizados en la segunda parte del proyecto
 
 /datasets/orders_us.csv
 
@@ -33,7 +32,8 @@ Datos utilizados en la segunda parte del proyecto
     visits: el número de visitas en la fecha especificada en el grupo de pruebas A/B especificado.
 
 Asegúrate de preprocesar los datos. Es posible que haya errores en los datasets originales; por ejemplo, algunos de los visitantes podrían haber entrado tanto en el grupo A como en el grupo B.
-Parte 1. Priorizar hipótesis
+
+# Parte 1. Priorizar hipótesis
 
 El archivo hypotheses_us.csv contiene nueve hipótesis sobre cómo aumentar los ingresos de una tienda online con Reach, Impact, Confidence y Effort especificados para cada una.
 
@@ -43,13 +43,13 @@ El ejercicio consiste en:
     Aplicar el framework RICE para priorizar hipótesis. Ordenarlas en orden descendente de prioridad.
     Mostrar cómo cambia la priorización de hipótesis cuando utilizas RICE en lugar de ICE. Proporcionar una explicación de los cambios.
 
-Parte 2. Análisis del test A/B
+# Parte 2. Análisis del test A/B
 
 Realizaste una prueba A/B y obtuviste los resultados descritos en los archivos orders_us.csv y visits_us.csv.
 
 Ejercicio
 
-Analiza el test A/B:
+✔Analiza el test A/B:
 
     Representa gráficamente el ingreso acumulado por grupo. Haz conclusiones y conjeturas.
     Representa gráficamente el tamaño de pedido promedio acumulado por grupo. Haz conclusiones y conjeturas.
