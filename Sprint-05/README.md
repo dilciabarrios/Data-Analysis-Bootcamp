@@ -120,21 +120,4 @@ Tú decides qué valor alfa usar. Además, tienes que explicar:
 ### Paso 5. Escribe una conclusión general
 
 Formato. Completa todas las tareas en un Jupyter Notebook. Almacena todo el código en las celdas code y las explicaciones de texto en las celdas markdown. Añade títulos y el formato adecuado si es necesario.
-¿Cómo será evaluado mi proyecto?
-
-Hemos recopilado los criterios de evaluación del proyecto. Léelos atentamente antes de empezar a trabajar.
-
-Esto es lo que buscan los revisores de proyecto cuando evalúan tu proyecto:
-
-    Cómo explicas los problemas identificados en los datos.
-    Cómo preparas los datos para el análisis.
-    Qué gráficos trazas para las distribuciones.
-    Cómo interpretas los gráficos resultantes.
-    Cómo calculas la desviación estándar y la varianza.
-    Si formulas las hipótesis nula y alternativa.
-    Qué métodos utilizas para probar tus hipótesis.
-    Si interpretas los resultados de tus pruebas de hipótesis.
-    Si sigues la estructura del proyecto y mantienes el código ordenado.
-    Las conclusiones a las que llegas.
-    Si dejas comentarios en cada paso.
 
