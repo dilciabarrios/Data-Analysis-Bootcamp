@@ -1,4 +1,4 @@
-Descripción del proyecto
+# Descripción del proyecto
 
 Lo has hecho de maravilla en el curso de TripleTen y te han ofrecido hacer prácticas en el departamento de analítica de Showz, una empresa de venta de entradas de eventos. Tu primera tarea es ayudar a optimizar los gastos de marketing. 
 
@@ -17,7 +17,7 @@ Lo que vas a investigar:
 
 Instrucciones para completar el proyecto
 
-Paso 1. Acceda los datos y prepáralos para el análisis
+# Paso 1. Acceda los datos y prepáralos para el análisis
 
 Almacena los datos de visitas, pedidos y gastos en variables.  Optimiza los datos para el análisis. Asegúrate de que cada columna contenga el tipo de datos correcto. 
 Rutas de archivos: 
@@ -26,7 +26,7 @@ Rutas de archivos:
 /datasets/orders_log_us.csv Acceda el dataset
 /datasets/costs_us.csv Acceda el dataset
 
-Paso 2. Haz informes y calcula métricas 
+# Paso 2. Haz informes y calcula métricas 
 
     Visitas:
         ¿Cuántas personas lo usan cada día, semana y mes?
@@ -47,14 +47,14 @@ Paso 2. Haz informes y calcula métricas
 
 Traza gráficos para mostrar cómo difieren estas métricas para varios dispositivos y fuentes de anuncios y cómo cambian con el tiempo. 
 
-Paso 3. Escribe una conclusión: aconseja a los expertos de marketing cuánto dinero invertir y dónde
+# Paso 3. Escribe una conclusión: aconseja a los expertos de marketing cuánto dinero invertir y dónde
 
 ¿Qué fuentes/plataformas recomendarías?  Fundamenta tu selección: ¿en qué métricas te enfocaste?  ¿Por qué? ¿Qué conclusiones sacaste después de encontrar los valores métricos?
 
 Formato: Completa la tarea en un Jupyter Notebook. Inserta el código en las celdas code y las explicaciones de texto en las celdas markdown. Aplica formato y encabezados.
 Descripción de los datos
 
-La tabla visits (registros del servidor con datos sobre las visitas al sitio web):
+✔La tabla visits (registros del servidor con datos sobre las visitas al sitio web):
 
     Uid: identificador único del usuario.
     Device: dispositivo del usuario.
@@ -64,12 +64,12 @@ La tabla visits (registros del servidor con datos sobre las visitas al sitio web
 
 Todas las fechas de esta tabla están en formato AAAA-MM-DD.
 
-La tabla orders (datos sobre pedidos):
+✔La tabla orders (datos sobre pedidos):
 
     Uid: identificador único del usuario que realiza un pedido.
     Buy Ts: fecha y hora del pedido. Revenue: el ingreso de Showz por el pedido.
 
-La tabla costs (datos sobre gastos de marketing):
+✔La tabla costs (datos sobre gastos de marketing):
 
     source_id: identificador de la fuente de anuncios.
     dt: fecha.
