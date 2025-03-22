@@ -1,4 +1,4 @@
-Descripción del proyecto
+# Descripción del proyecto
 
 Trabajas en una empresa emergente que vende productos alimenticios. Debes investigar el comportamiento del usuario para la aplicación de la empresa.
 
@@ -20,19 +20,19 @@ Cada entrada de registro es una acción de usuario o un evento.
     EventTimestamp: hora del evento.
     ExpId: número de experimento. 246 y 247 son los grupos de control, y 248 es el grupo de prueba.
 
-Instrucciones para completar el proyecto
+# Instrucciones para completar el proyecto
 
-Paso 1. Abrir el archivo de datos y leer la información general
+# Paso 1. Abrir el archivo de datos y leer la información general
 
 Ruta de archivo: */datasets/logs_exp_us.csv* Descarga el dataset
 
-Paso 2. Preparar los datos para el análisis
+# Paso 2. Preparar los datos para el análisis
 
     Cambia el nombre de las columnas de manera que sea conveniente para ti.
     Comprueba los tipos de datos y valores ausentes. Corrige los datos si es necesario.
     Agrega una columna de fecha y hora y una columna separada para las fechas.
 
-Paso 3. Estudiar y comprobar los datos
+# Paso 3. Estudiar y comprobar los datos
 
     ¿Cuántos eventos hay en los registros?
     ¿Cuántos usuarios hay en los registros?
@@ -41,7 +41,7 @@ Paso 3. Estudiar y comprobar los datos
     ¿Perdiste muchos eventos y usuarios al excluir los datos más antiguos?
     Asegúrate de tener usuarios de los tres grupos experimentales.
 
-Paso 4. Estudiar el embudo de eventos
+# Paso 4. Estudiar el embudo de eventos
 
     Observa qué eventos hay en los registros y su frecuencia de suceso. Ordénalos por frecuencia.
     Encuentra la cantidad de usuarios que realizaron cada una de estas acciones. Ordena los eventos por el número de usuarios. Calcula la proporción de usuarios que realizaron la acción al menos una vez.
@@ -50,7 +50,7 @@ Paso 4. Estudiar el embudo de eventos
     ¿En qué etapa pierdes más usuarios?
     ¿Qué porcentaje de usuarios hace todo el viaje desde su primer evento hasta el pago?
 
-Paso 5. Estudiar los resultados del experimento
+# Paso 5. Estudiar los resultados del experimento
 
     ¿Cuántos usuarios hay en cada grupo?
     Tenemos dos grupos de control en el test A/A, donde comprobamos nuestros mecanismos y cálculos. Observa si hay una diferencia estadísticamente significativa entre las muestras 246 y 247.
